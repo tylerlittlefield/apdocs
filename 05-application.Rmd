@@ -38,6 +38,28 @@ Out of the box, ArborPro provides numerous reports that are ready to be used. Ho
 
 ## Personalize Your Map
 
+Users may personalize their map with things like titles, subtitles, logos, etc. Below is a list of all available options:
+
+1. Title
+2. Subtitle
+3. Logo
+4. Orientation, portrait/landscape/margins
+5. Map Labels
+6. Color coding
+7. Basemap
+
+The title, subtitle, and orientation are all configured in **Page Setup**:
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/applications/personal-map/page-setup.png")
+```
+
+The logo is added by storing an image titled "logo.bmp" in the ArborPro install directory, typically `C:\Program Files\ArborPro`. Consider adjusting the size of the photo to 100x100px. By default, the ArborPro logo is typically stored there however, it can be overwritten by replacing the photo. An example map might look like:
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/applications/personal-map/personal-map.png")
+```
+
 ## Export Data
 
 ## Configure Maintenance Settings

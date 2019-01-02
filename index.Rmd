@@ -1,6 +1,6 @@
 --- 
 title: "ArborPro Documentation"
-author: "Tyler Littlefield"
+author: "ArborPro Team"
 date: "`r paste('Last updated:', Sys.Date())`"
 site: bookdown::bookdown_site
 documentclass: book

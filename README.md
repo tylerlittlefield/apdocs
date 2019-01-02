@@ -1,1 +1,1 @@
-Private repository for ArborPro Documentation, a manual written _mostly_ in markdown with occasional R code here and there. The manual relies on the [`bookdown`](https://github.com/rstudio/bookdown) R package.
+Private repository for [ArborPro](http://arborprousa.com/) Documentation, a manual written _mostly_ in markdown with occasional R code here and there. The manual relies on the [`bookdown`](https://github.com/rstudio/bookdown) R package.
