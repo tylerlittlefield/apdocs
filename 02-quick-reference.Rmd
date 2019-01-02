@@ -1,0 +1,29 @@
+# Quick Reference {#quick-references}
+
+This chapter is the _"too long, didn't read"_ (TLDR) section of the documentation. It's meant for users that want to know how to do stuff without diving into the knitty gritty details of it all. Additionally, you can skip to chapter \@ref(applications) for further use cases.
+
+## Recording Work
+
+The most common task involves recording work done on trees. The workflow changes depending on whether or not we are recording work for a single tree or multiple trees.
+
+### One Tree
+
+To record work done on a single tree:
+
+1. Open ArborPro.
+2. Locate the tree that needs work done to it.
+    * You have two options for locating the tree: Search by characteristics or by simply zooming into the area of interest.
+3. Click on the Identify ("i") tool and click on the tree.
+4. Select the Work History tab. The list on the left side shows all recorded work that has been completed for this tree. 
+5. Click on the new work record button.
+6. Fill in all the information on the right, click the Save button, and press <OK>. There are three dates: Date refers to the current date, i.e. the date entered. Scheduled is a scheduled date and Completed is the date the work was actually done. Click the triangle next to each date field to see a calendar. This new work history record has now been added to the tree. If any crews or work types need to be modified, use the Edit > Maintenance Options menu to add or edit these items.
+
+### Multiple Trees
+
+To record work done on multiple trees:
+
+1. Open ArborPro.
+2. Locate the trees that require work. Simliar to the above, we have two options: Using the select tool or search by characteristics^[The select tool can be used to draw a box on the map to highlight several trees, or click on individual trees one-by-one. See the chapter \@ref(tools) for more information on how the select tool works.].
+3. Click on the "Inventory" tab and click on the "List" button^[A list allows you to apply work done to many trees, without having to enter work history individually for each tree. This can be a substantial time saver if you perform work on many trees at a time.].
+4. The New List window appears. This allows you to save the selected trees to a list. Enter the work code, sub code, crew, notes, and date the work was completed. Click "OK" to apply that work to all trees in the list. If you need to specify different dates the work was done, do not fill in a completion date and go to Step 5.
+5. To fill in individual dates for work done, click on the List in the left side. It will appear under the "Open Lists" since a completion date was not specified. Drag the scroll bar at the bottom all the way to the right to see the Date column. Click on an empty date box and enter the date, i.e. "1/20/18". Use the Down Arrow key on your keyboard to automatically fill in the same date on the next row. Click on the "Save" button to finish.

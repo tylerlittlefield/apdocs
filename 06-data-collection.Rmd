@@ -1,0 +1,3 @@
+# Data Collection {#data-collection}
+
+Some stuff on the importance of data collection. Would be nice to provide some advice on how to choose what data to record and why.

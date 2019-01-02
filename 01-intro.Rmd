@@ -1,0 +1,17 @@
+# Introduction {#intro}
+
+ArborPro assists forestry managers with managing their tree maintenance. The software incorporates a mapping component allowing the user to view, select, and locate trees or groups of trees. The dynamic link between the mapping component and the database provides a unique and powerful tool.
+
+## System Requirements
+
+ArborPro has the following system requirements:
+
+* Windows 2000/XP/Vista/8/10
+* 512MB RAM or greater
+* 130MB disk space
+* Additional disk space for mapping data
+  * Note: This can be up to many gigabytes for high-resolution aerial photography.
+  
+## Tree Inventory Methodology
+
+Trees are located in the field using a Global Positioning System (GPS) receiver. The ground coordinates are recorded and used to determine several site characteristics, such as nearest street, zone, adjacent building, and so on. Additionally, a number of tree characteristics are assessed and recorded, including the height, diameter, structure, condition, and species of the tree.

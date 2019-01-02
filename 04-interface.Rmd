@@ -1,0 +1,36 @@
+# Interface {#interface}
+
+This chapter discusses the softwares interface and is organized into two main parts: the broader _main_ components of the interface and the smaller _specialized_ components of the interface. We split this chapter into these two sections.
+
+## Main Components
+
+The main components of ArborPro can further be broken down into four sections:
+
+1. The map tab
+2. The inventory tab
+3. The left panel
+4. The tool bar
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/interface-labelled.png")
+```
+
+In short, the map tab displays the map, the inventory tab displays the data as a spreadsheet, the left panel organizes properties and lists, and the tool bar organizes all available tools. We will go over all four components in more detail below.
+
+### The Map Tab
+
+### The Inventory Tab
+
+Selecting the inventory tab will display the data as a spreadsheet with columns and rows. For users comfortable with excel, the inventory tab should look pretty familiar^[Note that no data is displayed in the inventory view because the screenshot was taken from a fresh ArborPro install with an empty database.].
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/inventory-tab.png")
+```
+
+### The Left Panel
+
+### The Tool Bar
+
+## Specialized Components
+
+Discuss things like the tree detail, map preferences, preferences, maintenance options, etc.

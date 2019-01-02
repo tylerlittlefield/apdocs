@@ -1,0 +1,22 @@
+--- 
+title: "ArborPro Documentation"
+author: "Tyler Littlefield"
+date: "`r paste('Last updated:', Sys.Date())`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Welcome {-}
+
+Welcome to ArborPro! Here, you can find everything you need to know about ArborPro software. If you are reading this, we assume you already have ArborPro software and are ready to dive into the details. However, if this isn't the case and you are simply interested in what the software has to offer, please contact us [here](http://arborprousa.com/#contacthome).
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
