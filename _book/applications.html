@@ -14,7 +14,7 @@
   
   
   <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  
+  <meta name="github-repo" content="tylurp/apdocs" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="ArborPro Documentation" />
@@ -162,11 +162,23 @@
 <li>Search by recommended maintenance</li>
 <li>Search by condition in a specific zone</li>
 </ol>
-<p>Finally, it’s important to understand that the search tool is only as good as the data collected. This is similar to the <a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out"><strong>Garbage In, Garbage Out</strong></a> concept where poorly collected data will make searching difficult. Conversly, properly collected data will provide better search results. For more on the importance of data collection, see chapter <a href="data-collection.html#data-collection">6</a>.</p>
+<p>Finally, it’s important to understand that the search tool is only as good as the data collected. This is similar to the <a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out"><strong>Garbage In, Garbage Out</strong></a> concept where poorly collected data will produce poor search results. Conversely, properly collected data will provide better search results. For more on the importance of data collection, see chapter <a href="data-collection.html#data-collection">6</a>.</p>
 </div>
 <div id="build-a-custom-report" class="section level2">
 <h2><span class="header-section-number">5.2</span> Build a Custom Report</h2>
-<p>Out of the box, ArborPro provides numerous reports that are ready to be used. However, there may be times were you need a custom report with a specific set of fields. You may even need the sorting of those fields to behave in a specific way.</p>
+<p>Out of the box, ArborPro provides numerous reports that are ready to be used. However, there may be times were you need a custom report with a specific set of fields. You may even need the sorting of those fields to behave in a specific way. To begin building a custom report follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li>Select <strong>Reports</strong> from the menu bar</li>
+<li>Select <strong>Custom Reports</strong></li>
+<li>Select a field from the <strong>All Fields</strong> menu</li>
+<li>Select the <strong>&gt;</strong> button to send the field to the <strong>Fields in Report</strong> menu</li>
+<li>Repeat the steps until all desired fields are in the <strong>Fields in Report</strong> menu</li>
+<li>(Optional) rearrange the fields as necessary with the <strong>Up</strong> and <strong>Down</strong> buttons, the higher up, the farther left in the report</li>
+<li>Give the report a name</li>
+<li>Select <strong>OK</strong></li>
+</ol>
+<p>After, the custom report will be saved and can be reused for future use. For example, here’s a simple custom report that shows the botanical and common names:</p>
+<p><img src="images/applications/custom-report/custom-report.png" width="1440" /></p>
 </div>
 <div id="personalize-your-map" class="section level2">
 <h2><span class="header-section-number">5.3</span> Personalize Your Map</h2>
@@ -187,6 +199,21 @@
 </div>
 <div id="export-data" class="section level2">
 <h2><span class="header-section-number">5.4</span> Export Data</h2>
+<p>A major selling point with ArborPro is that users control and own their data. ArborPro doesn’t “lock” you into the system, we make it easy for users to export their data. To export your data you have two options:</p>
+<ol style="list-style-type: decimal">
+<li>Export all the data</li>
+<li>Export the selected data</li>
+</ol>
+<p>In order to export a selection, follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li>Select <strong>File</strong> from the menu bar</li>
+<li>Select <strong>Export Data</strong></li>
+<li>Choose a coordinate reference system, either Lat/Lon or Web Mercator, ArborPro uses Web Mercator since this is what Google Maps uses</li>
+<li>The export data window will open, choose a location to save the data</li>
+</ol>
+<p><img src="images/applications/export-data/export-data.png" width="1440" /></p>
+<p>From this point, you can open the data in any other geographic information system (GIS). For example, here’s a screenshot of the exported data running in QGIS:</p>
+<p><img src="images/applications/export-data/export-qgis.png" width="960" /></p>
 </div>
 <div id="configure-maintenance-settings" class="section level2">
 <h2><span class="header-section-number">5.5</span> Configure Maintenance Settings</h2>

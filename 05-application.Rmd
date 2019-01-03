@@ -30,11 +30,26 @@ And that's pretty much it. The search tool is very intuitive and more complex se
 5. Search by recommended maintenance
 6. Search by condition in a specific zone
 
-Finally, it's important to understand that the search tool is only as good as the data collected. This is similar to the [**Garbage In, Garbage Out**](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) concept where poorly collected data will make searching difficult. Conversly, properly collected data will provide better search results. For more on the importance of data collection, see chapter \@ref(data-collection).
+Finally, it's important to understand that the search tool is only as good as the data collected. This is similar to the [**Garbage In, Garbage Out**](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) concept where poorly collected data will produce poor search results. Conversely, properly collected data will provide better search results. For more on the importance of data collection, see chapter \@ref(data-collection).
 
 ## Build a Custom Report
 
-Out of the box, ArborPro provides numerous reports that are ready to be used. However, there may be times were you need a custom report with a specific set of fields. You may even need the sorting of those fields to behave in a specific way. 
+Out of the box, ArborPro provides numerous reports that are ready to be used. However, there may be times were you need a custom report with a specific set of fields. You may even need the sorting of those fields to behave in a specific way. To begin building a custom report follow these steps:
+
+1. Select **Reports** from the menu bar
+2. Select **Custom Reports**
+3. Select a field from the **All Fields** menu
+4. Select the **>** button to send the field to the **Fields in Report** menu
+5. Repeat the steps until all desired fields are in the **Fields in Report** menu
+6. (Optional) rearrange the fields as necessary with the **Up** and **Down** buttons, the higher up, the farther left in the report
+7. Give the report a name
+8. Select **OK**
+
+After, the custom report will be saved and can be reused for future use. For example, here's a simple custom report that shows the botanical and common names:
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/applications/custom-report/custom-report.png")
+```
 
 ## Personalize Your Map
 
@@ -61,6 +76,28 @@ knitr::include_graphics("images/applications/personal-map/personal-map.png")
 ```
 
 ## Export Data
+
+A major selling point with ArborPro is that users control and own their data. ArborPro doesn't "lock" you into the system, we make it easy for users to export their data. To export your data you have two options:
+
+1. Export all the data
+2. Export the selected data
+
+In order to export a selection, follow these steps:
+
+1. Select **File** from the menu bar
+2. Select **Export Data**
+3. Choose a coordinate reference system, either Lat/Lon or Web Mercator, ArborPro uses Web Mercator since this is what Google Maps uses
+4. The export data window will open, choose a location to save the data
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/applications/export-data/export-data.png")
+```
+
+From this point, you can open the data in any other geographic information system (GIS). For example, here's a screenshot of the exported data running in QGIS:
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/applications/export-data/export-qgis.png")
+```
 
 ## Configure Maintenance Settings
 
