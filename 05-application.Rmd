@@ -1,6 +1,6 @@
 # Applications {#applications}
 
-Some significant applications are demonstrated in this chapter. Think of it as an ArborPro cookbook with recipes for completing tasks.
+Some significant applications are demonstrated in this chapter. Think of it as an ArborPro cookbook with recipes for completing tasks. If you have a recipe in mind that you would like added to this list, please send our team an email [here](mailto:tyler@arborprousa.com) and we will add it.
 
 ## Identify Hazardous Trees
 

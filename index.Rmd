@@ -13,7 +13,9 @@ github-repo: "tylurp/apdocs"
 
 # Welcome {-}
 
-Welcome to ArborPro! Here, you can find everything you need to know about ArborPro software. If you are reading this, we assume you already have ArborPro software and are ready to dive into the details. However, if this isn't the case and you are simply interested in what the software has to offer, please contact us [here](http://arborprousa.com/#contacthome).
+Welcome to ArborPro! Here, you can find everything you need to know about ArborPro software. If you are reading this, we assume you already have ArborPro software and are ready to dive into the details. However, if this isn't the case and you are simply interested in what the software has to offer, please contact us [here](http://arborprousa.com/contact).
+
+**Note to readers:** This is currently a work in progress as we revamp our older documentation. You may notice certain sections that aren't filled out. If you have any feedback, we'd love to hear it. Please shoot us an email [here](mailto:tyler@arborprousa.com) and we will respond as soon as possible.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

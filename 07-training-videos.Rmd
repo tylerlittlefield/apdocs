@@ -1,0 +1,8 @@
+# Training Videos {#training-videos}
+
+If you prefer videos instead of step by step instructions, this chapter will serve you well. Here we provide a variety of videos that teach users how to complete common tasks in ArborPro.
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.youtube.com/watch?v=stIPzVTeYDo")
+```
+

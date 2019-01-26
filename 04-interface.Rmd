@@ -4,7 +4,7 @@ This chapter discusses the softwares interface and is organized into two main pa
 
 ## Main Components
 
-The main components of ArborPro can further be broken down into four sections:
+The main components of ArborPro can further be broken down into six sections:
 
 1. Map
 2. Inventory Tab
@@ -17,7 +17,7 @@ The main components of ArborPro can further be broken down into four sections:
 knitr::include_graphics("images/ui/ui-main.png")
 ```
 
-In short, the map tab displays the map, the inventory tab displays the data as a spreadsheet, the left panel organizes properties and lists, and the tool bar organizes all available tools. We will go over all four components in more detail below.
+The **map** is our aerial view of the inventory. The **inventory tab** is our spreadsheet view of the inventory. The **left panel** organizes the properties and lists. The **tool bar** organizes the available tools. The **menu bar** is organizes all additional functionality like reporting, searching, and more. Below, we will discuss each of the six main components in further detail.
 
 ### Map
 

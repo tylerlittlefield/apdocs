@@ -28,7 +28,8 @@ tools <- tibble::tribble(
   "List", "Create a list"
 )
 
-knitr::kable(tools)
+# knitr::kable(tools)
+gt::gt(tools)
 ```
 
 ## Tool Details
