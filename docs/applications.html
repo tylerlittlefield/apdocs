@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chapter 5 Applications | ArborPro Documentation</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Chapter 5 Applications | ArborPro Documentation" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="tylurp/apdocs" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Applications | ArborPro Documentation" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="ArborPro Team">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="interface.html">
+<link rel="next" href="data-collection.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">ArborPro Documentation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#system-requirements"><i class="fa fa-check"></i><b>1.1</b> System Requirements</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#tree-inventory-methodology"><i class="fa fa-check"></i><b>1.2</b> Tree Inventory Methodology</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="quick-references.html"><a href="quick-references.html"><i class="fa fa-check"></i><b>2</b> Quick Reference</a><ul>
+<li class="chapter" data-level="2.1" data-path="quick-references.html"><a href="quick-references.html#recording-work"><i class="fa fa-check"></i><b>2.1</b> Recording Work</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="quick-references.html"><a href="quick-references.html#one-tree"><i class="fa fa-check"></i><b>2.1.1</b> One Tree</a></li>
+<li class="chapter" data-level="2.1.2" data-path="quick-references.html"><a href="quick-references.html#multiple-trees"><i class="fa fa-check"></i><b>2.1.2</b> Multiple Trees</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>3</b> Tools</a><ul>
+<li class="chapter" data-level="3.1" data-path="tools.html"><a href="tools.html#tool-details"><i class="fa fa-check"></i><b>3.1</b> Tool Details</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="tools.html"><a href="tools.html#full-extent"><i class="fa fa-check"></i><b>3.1.1</b> Full Extent</a></li>
+<li class="chapter" data-level="3.1.2" data-path="tools.html"><a href="tools.html#zoom-previous"><i class="fa fa-check"></i><b>3.1.2</b> Zoom Previous</a></li>
+<li class="chapter" data-level="3.1.3" data-path="tools.html"><a href="tools.html#zoom-next"><i class="fa fa-check"></i><b>3.1.3</b> Zoom Next</a></li>
+<li class="chapter" data-level="3.1.4" data-path="tools.html"><a href="tools.html#zoom-in"><i class="fa fa-check"></i><b>3.1.4</b> Zoom In</a></li>
+<li class="chapter" data-level="3.1.5" data-path="tools.html"><a href="tools.html#zoom-out"><i class="fa fa-check"></i><b>3.1.5</b> Zoom Out</a></li>
+<li class="chapter" data-level="3.1.6" data-path="tools.html"><a href="tools.html#pan"><i class="fa fa-check"></i><b>3.1.6</b> Pan</a></li>
+<li class="chapter" data-level="3.1.7" data-path="tools.html"><a href="tools.html#select"><i class="fa fa-check"></i><b>3.1.7</b> Select</a></li>
+<li class="chapter" data-level="3.1.8" data-path="tools.html"><a href="tools.html#identify"><i class="fa fa-check"></i><b>3.1.8</b> Identify</a></li>
+<li class="chapter" data-level="3.1.9" data-path="tools.html"><a href="tools.html#measure"><i class="fa fa-check"></i><b>3.1.9</b> Measure</a></li>
+<li class="chapter" data-level="3.1.10" data-path="tools.html"><a href="tools.html#add-tree"><i class="fa fa-check"></i><b>3.1.10</b> Add Tree</a></li>
+<li class="chapter" data-level="3.1.11" data-path="tools.html"><a href="tools.html#add-polygon"><i class="fa fa-check"></i><b>3.1.11</b> Add Polygon</a></li>
+<li class="chapter" data-level="3.1.12" data-path="tools.html"><a href="tools.html#move-point"><i class="fa fa-check"></i><b>3.1.12</b> Move Point</a></li>
+<li class="chapter" data-level="3.1.13" data-path="tools.html"><a href="tools.html#site-numbering"><i class="fa fa-check"></i><b>3.1.13</b> Site Numbering</a></li>
+<li class="chapter" data-level="3.1.14" data-path="tools.html"><a href="tools.html#clear-selection"><i class="fa fa-check"></i><b>3.1.14</b> Clear Selection</a></li>
+<li class="chapter" data-level="3.1.15" data-path="tools.html"><a href="tools.html#print-map"><i class="fa fa-check"></i><b>3.1.15</b> Print Map</a></li>
+<li class="chapter" data-level="3.1.16" data-path="tools.html"><a href="tools.html#list-editor"><i class="fa fa-check"></i><b>3.1.16</b> List Editor</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="interface.html"><a href="interface.html"><i class="fa fa-check"></i><b>4</b> Interface</a><ul>
+<li class="chapter" data-level="4.1" data-path="interface.html"><a href="interface.html#main-components"><i class="fa fa-check"></i><b>4.1</b> Main Components</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="interface.html"><a href="interface.html#map"><i class="fa fa-check"></i><b>4.1.1</b> Map</a></li>
+<li class="chapter" data-level="4.1.2" data-path="interface.html"><a href="interface.html#inventory-tab"><i class="fa fa-check"></i><b>4.1.2</b> Inventory Tab</a></li>
+<li class="chapter" data-level="4.1.3" data-path="interface.html"><a href="interface.html#left-panel"><i class="fa fa-check"></i><b>4.1.3</b> Left Panel</a></li>
+<li class="chapter" data-level="4.1.4" data-path="interface.html"><a href="interface.html#tool-bar"><i class="fa fa-check"></i><b>4.1.4</b> Tool Bar</a></li>
+<li class="chapter" data-level="4.1.5" data-path="interface.html"><a href="interface.html#menu-bar"><i class="fa fa-check"></i><b>4.1.5</b> Menu Bar</a></li>
+<li class="chapter" data-level="4.1.6" data-path="interface.html"><a href="interface.html#status-bar"><i class="fa fa-check"></i><b>4.1.6</b> Status Bar</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="interface.html"><a href="interface.html#specialized-components"><i class="fa fa-check"></i><b>4.2</b> Specialized Components</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a><ul>
+<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#identify-hazardous-trees"><i class="fa fa-check"></i><b>5.1</b> Identify Hazardous Trees</a></li>
+<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#build-a-custom-report"><i class="fa fa-check"></i><b>5.2</b> Build a Custom Report</a></li>
+<li class="chapter" data-level="5.3" data-path="applications.html"><a href="applications.html#personalize-your-map"><i class="fa fa-check"></i><b>5.3</b> Personalize Your Map</a></li>
+<li class="chapter" data-level="5.4" data-path="applications.html"><a href="applications.html#export-data"><i class="fa fa-check"></i><b>5.4</b> Export Data</a></li>
+<li class="chapter" data-level="5.5" data-path="applications.html"><a href="applications.html#configure-maintenance-settings"><i class="fa fa-check"></i><b>5.5</b> Configure Maintenance Settings</a></li>
+<li class="chapter" data-level="5.6" data-path="applications.html"><a href="applications.html#exportimport-maintenace-data"><i class="fa fa-check"></i><b>5.6</b> Export/Import Maintenace Data</a></li>
+<li class="chapter" data-level="5.7" data-path="applications.html"><a href="applications.html#mass-update"><i class="fa fa-check"></i><b>5.7</b> Mass Update</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="data-collection.html"><a href="data-collection.html"><i class="fa fa-check"></i><b>6</b> Data Collection</a></li>
+<li class="chapter" data-level="7" data-path="training-videos.html"><a href="training-videos.html"><i class="fa fa-check"></i><b>7</b> Training Videos</a></li>
+<li class="chapter" data-level="8" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>8</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ArborPro Documentation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="applications" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Applications</h1>
+<p>Some significant applications are demonstrated in this chapter. Think of it as an ArborPro cookbook with recipes for completing tasks. If you have a recipe in mind that you would like added to this list, please send our team an email <a href="mailto:tyler@arborprousa.com">here</a> and we will add it.</p>
+<div id="identify-hazardous-trees" class="section level2">
+<h2><span class="header-section-number">5.1</span> Identify Hazardous Trees</h2>
+<p>Locating hazardous trees is a common use case for many ArborPro users. Identifying trees of any criteria (hazard or not) is itself and important and powerful tool. Querying your inventory requires the search tool and a solid understanding of the search tool is necessary to prioritize your work efficiently. To begin searching either use the hotkey <code>Ctrl + F</code> or follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li>Select <strong>Search</strong> in the top left-ish menu bar.</li>
+<li>From the <strong>Search</strong> drop down menu, select <strong>Characteristics</strong>.</li>
+</ol>
+<p>Having followed those steps, you should see a search window:</p>
+<p><img src="images/applications/search/search.png" width="1028" /></p>
+<p>From this point, you can find all hazardous trees selecting all trees with a <strong>Target Rating</strong> of <strong>Hazard</strong>:</p>
+<p><img src="images/applications/search/search-hazard.png" width="1238" /></p>
+<p>And that’s pretty much it. The search tool is very intuitive and more complex searches can be made with ease. You can get creative with your searches and add multiple characteristics to a single search. Some other common searches are:</p>
+<ol style="list-style-type: decimal">
+<li>Search for a specific species</li>
+<li>Search for all trees within a DBH range</li>
+<li>Search by condition</li>
+<li>Search by update/inspected/gps date</li>
+<li>Search by recommended maintenance</li>
+<li>Search by condition in a specific zone</li>
+</ol>
+<p>Finally, it’s important to understand that the search tool is only as good as the data collected. This is similar to the <a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out"><strong>Garbage In, Garbage Out</strong></a> concept where poorly collected data will produce poor search results. Conversely, properly collected data will provide better search results. For more on the importance of data collection, see chapter <a href="data-collection.html#data-collection">6</a>.</p>
+</div>
+<div id="build-a-custom-report" class="section level2">
+<h2><span class="header-section-number">5.2</span> Build a Custom Report</h2>
+<p>Out of the box, ArborPro provides numerous reports that are ready to be used. However, there may be times were you need a custom report with a specific set of fields. You may even need the sorting of those fields to behave in a specific way. To begin building a custom report follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li>Select <strong>Reports</strong> from the menu bar</li>
+<li>Select <strong>Custom Reports</strong></li>
+<li>Select a field from the <strong>All Fields</strong> menu</li>
+<li>Select the <strong>&gt;</strong> button to send the field to the <strong>Fields in Report</strong> menu</li>
+<li>Repeat the steps until all desired fields are in the <strong>Fields in Report</strong> menu</li>
+<li>(Optional) rearrange the fields as necessary with the <strong>Up</strong> and <strong>Down</strong> buttons, the higher up, the farther left in the report</li>
+<li>Give the report a name</li>
+<li>Select <strong>OK</strong></li>
+</ol>
+<p>After, the custom report will be saved and can be reused for future use. For example, here’s a simple custom report that shows the botanical and common names:</p>
+<p><img src="images/applications/custom-report/custom-report.png" width="1440" /></p>
+</div>
+<div id="personalize-your-map" class="section level2">
+<h2><span class="header-section-number">5.3</span> Personalize Your Map</h2>
+<p>Users may personalize their map with things like titles, subtitles, logos, etc. Below is a list of all available options:</p>
+<ol style="list-style-type: decimal">
+<li>Title</li>
+<li>Subtitle</li>
+<li>Logo</li>
+<li>Orientation, portrait/landscape/margins</li>
+<li>Map Labels</li>
+<li>Color coding</li>
+<li>Basemap</li>
+</ol>
+<p>The title, subtitle, and orientation are all configured in <strong>Page Setup</strong>:</p>
+<p><img src="images/applications/personal-map/page-setup.png" width="1440" /></p>
+<p>The logo is added by storing an image titled “logo.bmp” in the ArborPro install directory, typically <code>C:\Program Files\ArborPro</code>. Consider adjusting the size of the photo to 100x100px. By default, the ArborPro logo is typically stored there however, it can be overwritten by replacing the photo. An example map might look like:</p>
+<p><img src="images/applications/personal-map/personal-map.png" width="825" /></p>
+</div>
+<div id="export-data" class="section level2">
+<h2><span class="header-section-number">5.4</span> Export Data</h2>
+<p>A major selling point with ArborPro is that users control and own their data. ArborPro doesn’t “lock” you into the system, we make it easy for users to export their data. To export your data you have two options:</p>
+<ol style="list-style-type: decimal">
+<li>Export all the data</li>
+<li>Export the selected data</li>
+</ol>
+<p>In order to export a selection, follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li>Select <strong>File</strong> from the menu bar</li>
+<li>Select <strong>Export Data</strong></li>
+<li>Choose a coordinate reference system, either Lat/Lon or Web Mercator, ArborPro uses Web Mercator since this is what Google Maps uses</li>
+<li>The export data window will open, choose a location to save the data</li>
+</ol>
+<p><img src="images/applications/export-data/export-data.png" width="1440" /></p>
+<p>From this point, you can open the data in any other geographic information system (GIS). For example, here’s a screenshot of the exported data running in QGIS:</p>
+<p><img src="images/applications/export-data/export-qgis.png" width="960" /></p>
+</div>
+<div id="configure-maintenance-settings" class="section level2">
+<h2><span class="header-section-number">5.5</span> Configure Maintenance Settings</h2>
+</div>
+<div id="exportimport-maintenace-data" class="section level2">
+<h2><span class="header-section-number">5.6</span> Export/Import Maintenace Data</h2>
+</div>
+<div id="mass-update" class="section level2">
+<h2><span class="header-section-number">5.7</span> Mass Update</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="interface.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-collection.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
